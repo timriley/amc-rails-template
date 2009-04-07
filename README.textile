@@ -1,0 +1,11 @@
+h1. AMC Rails Template
+
+A template for generating the kind of Rails apps that we build at the AMC.
+
+h2. Usage
+
+rails -m amc-rails-tepmlate.rb <project_dir>
+
+h2. Copyright
+
+Copyright 2009 Tim Riley, Australian Medical Council. MIT Licence, so go for it.
