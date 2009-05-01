@@ -151,7 +151,7 @@ file 'app/views/layouts/main.html.haml', <<END
 = render :file => 'layouts/application'
 END
 
-file 'app/sass/_base.sass',
+file 'app/stylesheets/_base.sass',
 %q{@import compass/reset.sass
 @import compass/utilities.sass
 
@@ -229,7 +229,7 @@ body
     :padding-right 0
 }
 
-file 'app/sass/_typography.sass',
+file 'app/stylesheets/_typography.sass',
 %q{// COPIED DIRECTLY FROM THE BLUEPRINT FRAMEWORK DIR IN THE COMPASS GEM
 
 @import blueprint/modules/colors.sass
@@ -384,19 +384,19 @@ file 'app/sass/_typography.sass',
     +loud
 }
 
-file 'app/sass/ie.sass',
+file 'app/stylesheets/ie.sass',
 %q{@import base.sass
 
 +blueprint-ie
 }
 
-file 'app/sass/print.sass',
+file 'app/stylesheets/print.sass',
 %q{@import base.sass
 
 +blueprint-print
 }
 
-file 'app/sass/screen.sass',
+file 'app/stylesheets/screen.sass',
 %q{@import base.sass
 
 body
