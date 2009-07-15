@@ -474,3 +474,12 @@ END
 git :init
 git :add => '.'
 git :commit => '-a -m "Initial commit from AMC Rails template"'
+
+puts <<EOM
+Your next steps are:
+
+1. Edit config/database.yml
+2. rake db:create:all
+3. rake db:migrate (so we can get a db/schema.rb)
+4. Get to work!
+EOM
