@@ -7,7 +7,7 @@ plugin 'proxy_ping',          :git => 'git://github.com/artpop/proxy_ping'
 # For proxy_ping
 route "map.route '/proxy_ping', :controller => 'proxy_ping', :action => 'ping'"
 
-gem 'haml'
+gem 'haml', :version => '>= 2.2'
 gem 'mislav-will_paginate',   :lib => 'will_paginate',  :source => 'http://gems.github.com'
 gem 'chriseppstein-compass',  :lib => 'compass',        :source => 'http://gems.github.com'
 gem 'fiveruns_manage',                                  :source => 'http://gems.fiveruns.com', :version => '>= 1.1.1' if yes?('Fiveruns gem?')
