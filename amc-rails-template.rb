@@ -48,7 +48,7 @@ end
 
 run 'echo TODO > README'
 run 'touch tmp/.gitignore log/.gitignore vendor/.gitignore'
-run %{find . -type d -empty | grep -v "vendor" | grep -v ".git" | grep -v "tmp" | xargs -I xxx touch xxx/.gitignore]}
+run %{find . -type d -empty | grep -v "vendor" | grep -v ".git" | grep -v "tmp" | xargs -I xxx touch xxx/.gitignore}
 
 file '.gitignore',
 %q{.DS_Store
